@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    /* 바디 배경색을 검은색으로 설정 */
+    color: white;
+}
+
+header {
+    background-color: #6a4bc78d;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.message-box {
+    background-color: #6a4bc78d;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 5px;
+    max-height: 75vh;
+    /* 세로 길이를 뷰포트 높이의 50%로 설정 */
+    overflow: auto;
+    /* 내용이 넘칠 경우 스크롤바 표시 */
+}
+
+.message-box p {
+    color: white;
+    font-size: 1.5rem;
+    /* 메시지 박스 내부 글씨 색을 검은색으로 설정 */
+}
+
+h2 {
+    margin-bottom: 1rem;
+    /* 체크리스트 제목과 항목들 사이 간격 조정 */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* 항목들 사이 간격 조정 */
+}
+
+li input[type="checkbox"] {
+    margin-right: 1rem;
+}
+
+#calculateButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #6a4bc78d;
+    /* 버튼 색상을 파란색으로 설정 */
+    color: white;
+    border: 0.5px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #6a4bc78d;
+    color: white;
+    padding: 20px;
+    /* 크게 조절 */
+    border-radius: 10px;
+    /* 더 둥근 모서리 */
+    z-index: 9999;
+    max-width: 80%;
+    /* 최대 너비를 설정하여 가로 크기를 조절 */
+}

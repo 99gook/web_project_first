@@ -1,0 +1,45 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Web Page</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="banner">자취방 체크리스트</h1>
+    </header>
+    <main>
+        <div class="message-box">
+            <p id="message"></p>
+        </div>
+
+        <h3>건물 외부</h3>
+        <ul>
+            <li><input type="checkbox"> 주변 지하철역과의 거리 확인했는가?</li>
+            <li><input type="checkbox"> 주변 흡연구역을 체크했는가?</li>
+            <li><input type="checkbox"> 계단 및 주변 방의 위치와 거리를 확인했는가?</li>
+            <li><input type="checkbox"> 분리수거는 원활하게 이루어지는가?</li>
+            <li><input type="checkbox"> 직전 달 관리비 확인했는가?</li>
+
+        </ul>
+
+        <h3>건물 내부</h3>
+        <ul>
+            <li><input type="checkbox"> 남향인가?</li>
+            <li><input type="checkbox"> 벽을 두드려 가벽 여부를 확인했는가?</li>
+            <li><input type="checkbox"> 세탁기 바퀴 안, 수납 공간 청소 상태를 확인했는가?</li>
+            <li><input type="checkbox"> 벽지나 블라인드 상태를 확인했는가?</li>
+            <li><input type="checkbox"> 수압이나 배수가 원활한지 확인했는가?</li>
+        </ul>
+
+        <button id="calculateButton">결과</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
