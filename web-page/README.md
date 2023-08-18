@@ -1,4 +1,4 @@
-# web_project_first
+# 개요
 
 웹 페이지 제작 프로젝트 1차
 
